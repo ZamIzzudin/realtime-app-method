@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\" \"cd client_dupe && npm run dev\"",
     "init-server": "cd server && npm install",
-    "init-client": "cd client && npm install"
+    "init-client": "cd client && npm install",
+    "init-client-dupe": "cd client_dupe && npm install"
   },
   "author": "",
   "license": "ISC",
